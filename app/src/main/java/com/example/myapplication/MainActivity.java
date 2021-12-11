@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*main_bt_recycler.setOnClickListener(new View.OnClickListener() {
+        main_bt_recycler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Tablayout.class);
+                Intent intent = new Intent(MainActivity.this, TABLAYOUT.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
